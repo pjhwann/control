@@ -40,8 +40,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				rightAttTargets: {
 					name : 'NUMBERRRRR', 
 					title : {
-						media : {word : 'NUMBERRRRRRRRRRR'}, //Name of the attribute presented in the task.
-						css : {color:'#000000','font-size':'70px'} //Style of the attribute title.
+						media : {word : 'NUMBER'}, //Name of the attribute presented in the task.
+						css : {color:'#000000','font-size':'20px'} //Style of the attribute title.
 					}, 
 					mediaArray : [
 						{word: 'One'},
@@ -58,7 +58,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 					name : 'COLOR', 
 					title : {
 						media : {word : 'COLOR'}, //Name of the attribute presented in the task.
-						css : {color:'#000000','font-size':'70px'} //Style of the attribute title.
+						css : {color:'#000000','font-size':'20px'} //Style of the attribute title.
 					}, 
 					mediaArray : [
 						{word: 'Red'},
@@ -298,8 +298,8 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				data : {score:0},// by default each trial is crrect, this is modified in case of an error
 				//Layout defines what will be presented in the trial. It is like a background display.
 				layout: [
-					{location:{left:2,top:1},media:{word:'key: E'}, css:{color:'#000000','font-size':'1em'}},
-					{location:{right:2,top:1},media:{word:'key: I'}, css:{color:'#000000','font-size':'1em'}},
+					{location:{left:2,top:1},media:{word:'key: E'}, css:{color:'#000000','font-size':'2em'}},
+					{location:{right:2,top:1},media:{word:'key: I'}, css:{color:'#000000','font-size':'2em'}},
 					{location:{left:2,top:4},media:targetCats.leftAttTargets.title.media, css:targetCats.leftAttTargets.title.css},
 					{location:{right:2,top:4},media:targetCats.rightAttTargets.title.media, css:targetCats.rightAttTargets.title.css}
 				],
