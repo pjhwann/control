@@ -22,7 +22,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 		var epObj =
 		{
 			//The CSS for all the prime stimuli.
-			primeStimulusCSS : {color:'#COCOCO','font-size':'80px'},
+			primeStimulusCSS : {color:'#COCOCO','font-size':'130px'},
 			//The prime categories.
 			primeCats :  [
 				{
@@ -33,14 +33,14 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				{
 					name : 'prime2', 
 					mediaArray : [{word : 'prime2Stim2'}, {word : 'prime2Stim2'}]
-				}
+			
 			],	
 			//The two target categories.
 			targetCats : {
 				rightAttTargets: {
 					name : 'NUMBERRRRR', 
 					title : {
-						media : {word : 'NUMBER'}, //Name of the attribute presented in the task.
+						media : {word : 'NUMBERRRRRRRRRRR'}, //Name of the attribute presented in the task.
 						css : {color:'#000000','font-size':'70px'} //Style of the attribute title.
 					}, 
 					mediaArray : [
@@ -52,7 +52,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						{word: 'Nine'},
 						{word: 'Ten'}
 					], 
-					stimulusCSS : {color:'#COCOCO','font-size':'150px'}
+					stimulusCSS : {color:'#COCOCO','font-size':'130px'}
 				}, 
 				leftAttTargets : {
 					name : 'COLOR', 
@@ -69,7 +69,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 						{word: 'Pink'},
 						{word: 'Green'}
 					],
-					stimulusCSS : {color:'#COCOCO','font-size':'80px'}
+					stimulusCSS : {color:'#COCOCO','font-size':'130px'}
 				}
 			},
 			
